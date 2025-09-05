@@ -5,123 +5,92 @@ import { notFound } from "next/navigation"
 
 // Product data - in a real app this would come from a database
 const products = {
-  "blade-classic-black": {
-    id: "blade-classic-black",
-    name: "Blade — Classic Black",
+  EverydaySlide: {
+    id: "EverydaySlide",
+    name: "Everyday Slide",
     description:
-      "Minimalist leather slip-on inspired by Naija street style. Hand-stitched upper with cushioned sole for comfort all day. Perfect for both casual outings and semi-formal occasions.",
-    price: "₦12,000",
-    oldPrice: null,
-    images: ["/black-leather-slip-on-shoe-minimal-design.jpg"],
-    available: true,
-    sizes: ["6", "7", "8", "9", "10", "11"],
-    features: [
-      "Hand-stitched leather upper",
-      "Cushioned sole technology",
-      "Breathable inner lining",
-      "Slip-resistant outsole",
-    ],
-  },
-  "spoke-runner-olive": {
-    id: "spoke-runner-olive",
-    name: "Spoke Runner — Olive",
-    description:
-      "Lightweight runners with a retro twist. Bold design meets effortless motion for the modern urbanite. Features advanced cushioning technology for maximum comfort during extended wear.",
-    price: "₦15,000",
+      "Step out in style with these easy-to-wear slides. They feature a timeless checkered pattern and a strong buckle, giving you a look that's both simple and sharp.",
+    price: "₦12,500",
     oldPrice: "₦18,000",
-    images: ["/olive-green-running-shoe-retro-design.jpg"],
-    available: true,
-    sizes: ["6", "7", "8", "9", "10", "11", "12"],
-    features: [
-      "Lightweight mesh construction",
-      "Retro-inspired design",
-      "Advanced cushioning",
-      "Durable rubber outsole",
-    ],
-  },
-  "urban-walker-beige": {
-    id: "urban-walker-beige",
-    name: "Urban Walker — Beige",
-    description:
-      "Versatile everyday shoe with premium comfort. Perfect for city adventures and casual strolls. Crafted with sustainable materials and modern comfort technology.",
-    price: "₦13,500",
-    oldPrice: null,
-    images: ["/beige-casual-shoe-urban-style.jpg"],
+    images: ["/EverydaySlide.jpg"],
     available: false,
     sizes: ["6", "7", "8", "9", "10", "11"],
-    features: ["Sustainable materials", "All-day comfort padding", "Versatile styling", "Weather-resistant finish"],
-  },
-  "street-high-black-gold": {
-    id: "street-high-black-gold",
-    name: "Street High — Black & Gold",
-    description:
-      "High-top sneakers with gold accents. Bold statement piece for those who dare to stand out. Premium materials meet street-smart design in this iconic silhouette.",
-    price: "₦16,500",
-    oldPrice: null,
-    images: ["/black-gold-high-top-sneaker.jpg"],
-    available: true,
-    sizes: ["6", "7", "8", "9", "10", "11", "12"],
     features: [
-      "Premium leather construction",
-      "Gold accent detailing",
-      "High-top ankle support",
-      "Signature sole design",
+      "Timeless checkered pattern",
+      "Durable buckle design",
+      "Easy slip-on wear",
+      "Comfortable cushioned sole",
     ],
   },
-  "comfort-slide-olive": {
-    id: "comfort-slide-olive",
-    name: "Comfort Slide — Olive",
+  TheCheckeredSlide: {
+    id: "TheCheckeredSlide",
+    name: "The Checkered Slide",
     description:
-      "Premium slides with arch support. Perfect for relaxed days without compromising on style. Engineered for maximum comfort with contemporary aesthetics.",
-    price: "₦8,500",
-    oldPrice: "₦10,000",
-    images: ["/olive-comfort-slides.jpg"],
-    available: true,
-    sizes: ["6", "7", "8", "9", "10", "11", "12"],
-    features: ["Arch support technology", "Premium foam padding", "Quick-dry materials", "Non-slip sole"],
-  },
-  "heritage-boot-brown": {
-    id: "heritage-boot-brown",
-    name: "Heritage Boot — Brown",
-    description:
-      "Classic work boot reimagined. Durable leather construction meets contemporary street aesthetics. Built to last with timeless style that transcends trends.",
-    price: "₦19,000",
-    oldPrice: null,
-    images: ["/brown-heritage-work-boot.jpg"],
+      "Comfort and style in one. These slides have a classic checkered design and a shiny buckle. Perfect for a quick trip or a day out.",
+    price: "₦12,500",
+    oldPrice: "₦18,000",
+    images: ["/TheCheckeredSlide.jpg"],
     available: false,
-    sizes: ["6", "7", "8", "9", "10", "11", "12"],
-    features: ["Full-grain leather", "Steel shank support", "Oil-resistant sole", "Classic lace-up design"],
-  },
-  "flex-runner-white": {
-    id: "flex-runner-white",
-    name: "Flex Runner — White",
-    description:
-      "Ultra-lightweight running shoe with responsive cushioning. Clean design for maximum versatility. Perfect for both athletic performance and casual wear.",
-    price: "₦14,000",
-    oldPrice: null,
-    images: ["/white-flex-running-shoe.jpg"],
-    available: true,
-    sizes: ["6", "7", "8", "9", "10", "11", "12"],
+    sizes: ["6", "7", "8", "9", "10", "11"],
     features: [
-      "Ultra-lightweight design",
-      "Responsive cushioning",
-      "Breathable mesh upper",
-      "Flexible sole technology",
+      "Classic checkered design",
+      "Shiny buckle accent",
+      "Slip-on comfort",
+      "Durable sole",
     ],
   },
-  "casual-loafer-navy": {
-    id: "casual-loafer-navy",
-    name: "Casual Loafer — Navy",
+  TheMidnightCross: {
+    id: "TheMidnightCross",
+    name: "The Midnight Cross",
     description:
-      "Sophisticated loafer with modern twist. Perfect balance of formal elegance and street credibility. Crafted for the modern professional who values both style and comfort.",
+      "Meet your new go-to. The Midnight Cross is a sleek, black slide with a simple yet striking design. The crisscross straps give it a modern look, while the solid color makes it easy to pair with anything.",
     price: "₦17,500",
     oldPrice: "₦20,000",
-    images: ["/navy-casual-loafer.jpg"],
-    available: true,
+    images: ["/TheMidnightCross.jpg"],
+    available: false,
     sizes: ["6", "7", "8", "9", "10", "11"],
-    features: ["Premium suede construction", "Memory foam insole", "Flexible rubber sole", "Modern silhouette"],
+    features: [
+      "Crisscross strap design",
+      "Sleek all-black style",
+      "Versatile pairing with outfits",
+      "Cushioned for comfort",
+    ],
   },
-}
+  TheSignatureSlide: {
+    id: "TheSignatureSlide",
+    name: "The Signature Slide",
+    description:
+      "Elevate your style with the Signature slide. This classic black slide features a clean design with a simple, silver-toned buckle. It's built for both comfort and a timeless look, making it a perfect choice for any occasion.",
+    price: "₦17,500",
+    oldPrice: "₦20,000",
+    images: ["/The'Signature'Slide.jpg"],
+    available: false,
+    sizes: ["6", "7", "8", "9", "10", "11"],
+    features: [
+      "Classic black leather",
+      "Silver-toned buckle",
+      "Minimalist design",
+      "All-day comfort",
+    ],
+  },
+  TheModernArtisan: {
+    id: "TheModernArtisan",
+    name: "The Modern Artisan",
+    description:
+      "Step into timeless style with The Modern Artisan. These shoes blend classic craftsmanship with a contemporary twist. The smooth leather and clean, woven straps create a sharp look that works for both casual and dressy occasions.",
+    price: "₦45,000",
+    oldPrice: "₦50,000",
+    images: ["/The'Modern'Artisan.jpg"],
+    available: false,
+    sizes: ["6", "7", "8", "9", "10", "11"],
+    features: [
+      "Smooth leather craftsmanship",
+      "Contemporary woven straps",
+      "Versatile casual & dressy use",
+      "High-quality handmade finish",
+    ],
+  },
+};
 
 interface ProductPageProps {
   params: {
