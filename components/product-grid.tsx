@@ -22,7 +22,7 @@ export function ProductGrid() {
       description: "Comfort and style in one. These slides have a classic checkered design and a shiny buckle. Perfect for a quick trip or a day out",
       price: "₦12,500",
       oldPrice: "₦18,000",
-      image: "/thecheckeredSlide.JPG",
+      image: "/thecheckeredslide.JPG",
       available: false,
     },
     {
