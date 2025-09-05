@@ -12,7 +12,7 @@ const products = {
       "Step out in style with these easy-to-wear slides. They feature a timeless checkered pattern and a strong buckle, giving you a look that's both simple and sharp.",
     price: "₦12,500",
     oldPrice: "₦18,000",
-    images: ["/EverydaySlide.jpg"],
+    images: ["/everydayslide.jpg"],
     available: false,
     sizes: ["6", "7", "8", "9", "10", "11"],
     features: [
@@ -29,7 +29,7 @@ const products = {
       "Comfort and style in one. These slides have a classic checkered design and a shiny buckle. Perfect for a quick trip or a day out.",
     price: "₦12,500",
     oldPrice: "₦18,000",
-    images: ["/TheCheckeredSlide.jpg"],
+    images: ["/thecheckeredslide.jpg"],
     available: false,
     sizes: ["6", "7", "8", "9", "10", "11"],
     features: [
@@ -46,7 +46,7 @@ const products = {
       "Meet your new go-to. The Midnight Cross is a sleek, black slide with a simple yet striking design. The crisscross straps give it a modern look, while the solid color makes it easy to pair with anything.",
     price: "₦17,500",
     oldPrice: "₦20,000",
-    images: ["/TheMidnightCross.jpg"],
+    images: ["/themidnightcross.jpg"],
     available: false,
     sizes: ["6", "7", "8", "9", "10", "11"],
     features: [
@@ -63,7 +63,7 @@ const products = {
       "Elevate your style with the Signature slide. This classic black slide features a clean design with a simple, silver-toned buckle. It's built for both comfort and a timeless look, making it a perfect choice for any occasion.",
     price: "₦17,500",
     oldPrice: "₦20,000",
-    images: ["/The'Signature'Slide.jpg"],
+    images: ["/thesignatureslide.jpg"],
     available: false,
     sizes: ["6", "7", "8", "9", "10", "11"],
     features: [
@@ -80,7 +80,7 @@ const products = {
       "Step into timeless style with The Modern Artisan. These shoes blend classic craftsmanship with a contemporary twist. The smooth leather and clean, woven straps create a sharp look that works for both casual and dressy occasions.",
     price: "₦45,000",
     oldPrice: "₦50,000",
-    images: ["/The'Modern'Artisan.jpg"],
+    images: ["/themodernartisan.jpg"],
     available: false,
     sizes: ["6", "7", "8", "9", "10", "11"],
     features: [

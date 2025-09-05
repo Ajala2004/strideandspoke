@@ -12,7 +12,7 @@ export function FeaturedProducts() {
         "Elevate your style with the Signature slide. This classic black slide features a clean design with a simple, silver-toned buckle. Built for both comfort and timeless looks.",
       price: "₦17,500",
       oldPrice: "₦20,000",
-      image: "/The'Signature'Slide.jpg",
+      image: "/thesignatureslide.jpg",
       available: true,
     },
     {
@@ -22,7 +22,7 @@ export function FeaturedProducts() {
         "Step out in style with these easy-to-wear slides. Featuring a timeless checkered pattern and a strong buckle for a sharp, casual look.",
       price: "₦12,500",
       oldPrice: "₦18,000",
-      image: "/EverydaySlide.jpg",
+      image: "/everydayslide.jpg",
       available: true,
     },
     {
@@ -32,7 +32,7 @@ export function FeaturedProducts() {
         "Step into timeless style with The Modern Artisan. Crafted with smooth leather and woven straps, they balance modern design with traditional craftsmanship.",
       price: "₦45,000",
       oldPrice: "₦50,000",
-      image: "/The'Modern'Artisan.jpg",
+      image: "/themodernartisan.jpg",
       available: true,
     },
   ]
