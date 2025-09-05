@@ -12,7 +12,7 @@ export function FeaturedProducts() {
         "Elevate your style with the Signature slide. This classic black slide features a clean design with a simple, silver-toned buckle. Built for both comfort and timeless looks.",
       price: "₦17,500",
       oldPrice: "₦20,000",
-      image: "/thesignatureslide.JPG",
+      image: "/rr.JPG",
       available: true,
     },
     {
